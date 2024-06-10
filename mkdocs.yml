@@ -1,1 +1,69 @@
-site_name: My Docs
+site_name: Heraldry Course 1
+
+theme:
+  name: material
+
+nav:
+  - Introduction: index.md
+  - Lesson 1:
+      - Definition of Heraldry: definition-of-heraldry.md
+      - Historical Origins: historical-origins.md
+      - Regional Evolution and Adapation: regional-evolution-and-adaptation.md
+      - Role of Heralds and Authorities: role-of-heralds-and-authorities.md
+      - Quiz: placeholder.md
+  - Lesson 2:
+      - Basic Heraldic Terms: basic-heraldic-terms.md
+      - Understanding Blazoning: understanding-blazoning.md
+      - Examples of Blazons: examples-of-blazons.md
+      - Assignment: placeholder.md
+      - Quiz: placeholder.md
+  - Lesson 3:
+      - Different Shapes of Shields: different-shapes-of-shields.md
+      - Regional Variations in Shield Styles: regional-variations.md
+      - Significance and Symbolism of Shield Shapes: significance-and-symbolism-of-shield-shapes.md
+      - Quiz: placeholder.md
+  - Lesson 4:
+      - Explanation of Tinctures: explanation-of-tinctures.md
+      - Rules for Tincture Use and Combination: rules-for-tincture-us.md
+      - Historical and Symbolic Meanings of Each Tincture: meaning-for-tinctures.md
+      - Quiz: placeholder.md
+  - Lesson 5:
+      - Definition of Charges and Types: definition-of-charges-and-types.md
+      - Common Charges and Their Symbolic Meanings: common-charges-and-their-symbolic-meanings.md
+      - Placement and Arrangement of Charges on the Shield: placement-and-arrangement-of-charges-on-the-shield.md
+      - Quiz: placeholder.md
+  - Lesson 6:
+      - Principles of Good Heraldic Design: principles-of-good-heraldic-design.md
+      - Laws of Tincture and Contrast: laws-of-tincture-and-contrast.md
+      - Guidelines for Arranging Charges and Elements: guidelines-for-arranging-charges-and-elements.md
+      - Quiz: placeholder.md
+  - Lesson 7:
+      - Step-by-Step Process for Interpreting Coats of Arms: step-by-step-process-for-interpreting-coats-of-arms.md
+      - Practice with Real and Fictional Coats of Arms: practice-with-real-and-fictional-coats-of-arms.md
+      - Use of Heraldic Reference Materials: use-of-heraldic-reference-materials.md
+      - Quiz: placeholder.md
+  - Lesson 8:
+      - Contemporary Uses of Heraldry: contemporary-uses-of-heraldry.md
+      - Heraldic Design in Branding and Logos: heraldic-design-in-branding-and-logos.md
+      - Preservation of Historical Heraldry: preservation-of-historical-heraldry.md
+      - Quiz: placeholder.md
+
+markdown_extensions:
+  - admonition
+  - def_list
+  - footnotes
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+  - tables
