@@ -31,7 +31,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Build with MkDocs
-        uses: jnanadarshan/mkdocs-build-action@v1
+        uses: jnanadarshan/mkdocs-build-action@v0.24
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
